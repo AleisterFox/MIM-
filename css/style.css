@@ -25,9 +25,11 @@ html {
     font-weight: 500;
 }
 
-ul, ol {
+ul,
+ol {
     list-style: none;
 }
+
 a {
     text-decoration: none;
 }
@@ -44,7 +46,7 @@ a {
     align-items: center;
     width: 9rem;
     height: 4rem;
-    
+
 }
 
 .square__button i {
@@ -69,8 +71,9 @@ a {
 
 
 .white::after {
-border: 1px solid white;
+    border: 1px solid white;
 }
+
 .white {
     color: white;
 }
@@ -129,14 +132,14 @@ nav ul {
 }
 
 nav .m2 {
-    top:190%;
+    top: 190%;
     padding-top: 0;
 }
 
 nav li a {
     color: white;
     font-size: 2rem;
-    font-family: gothambook ;
+    font-family: gothambook;
 }
 
 nav li a:hover {
@@ -152,7 +155,7 @@ nav li a:hover {
 #hero {
     padding-top: 15vh;
     background-color: var(--blue);
-    position: relative;   
+    position: relative;
     overflow-y: hidden;
 }
 
@@ -181,9 +184,10 @@ nav li a:hover {
 
 h1 {
     color: white;
-    
+
     font-size: 3rem;
 }
+
 h1 strong {
     color: var(--gray);
 }
@@ -196,18 +200,63 @@ h1 strong {
 #hero .left,
 #hero .right {
     flex-basis: 60rem;
+    max-width: 65rem;
 }
 
 #hero h4 {
     color: white;
 }
 
+.slider {
+    overflow: hidden;
+    border: 1px solid wheat;
+    width: 100%;
+    height: 25rem;
+}
+
+.slider__projects {
+    display: flex;
+    height: 100%;
+    width: 250%;
+    transition: all 0.5s ease-in-out;
+    /* transform: translateX(-31%); */
+}
+
+.slider__projects--project {
+    position: relative;
+    height: 100%;
+    width: 50rem;
+    transition: all 0.3s linear;
+    border: 1px solid red;
+}
+
+.foreground {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #939aaa8e;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: none;
+    transition: all 0.5s linear;
+}
+
+.slider__projects--project:hover .foreground {
+    display: flex;
+}
+
+.foreground h3 {
+    color: white;
+    font-size: 1.6rem;
+}
+
 .slider__controls {
     display: flex;
     column-gap: 1rem;
 }
-
-
 
 .slider__controls .button {
     display: flex;
@@ -231,6 +280,7 @@ h1 strong {
 .buttons {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 @media screen and (min-width: 769px) {
@@ -245,7 +295,7 @@ h1 strong {
         padding: 0;
         width: fit-content;
     }
-    
+
     #hero .container {
         margin: 5rem;
     }
@@ -256,6 +306,7 @@ h1 strong {
     from {
         transform: translateX(-100%);
     }
+
     to {
         transform: translateX(0);
     }
