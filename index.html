@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" media="(prefers-color-scheme: light)">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" media="(prefers-color-scheme: dark)">
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
@@ -18,15 +20,15 @@
     <header>
         <nav>
             <ul class="menu m1">
-                <li><a href="">Home</a></li>
-                <li><a href="">Nosotros</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#us">Nosotros</a></li>
             </ul>
             <figure>
                 <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="">Servicios</a></li>
-                <li><a href="">Contacto</a></li>
+                <li><a href="projects.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
@@ -48,19 +50,19 @@
                     <div class="slider">
                         <div class="slider__projects">
                             <div class="slider__projects--project">
-                                <figure><img src="" alt=""></figure>
+                                <figure><img src="img/1b.jpg" alt=""></figure>
                                 <div class="foreground">
                                     <h3>Lorem Ipsum Itset</h3>
                                 </div>
                             </div>
                             <div class="slider__projects--project">
-                                <figure><img src="" alt=""></figure>
+                                <figure><img src="img/Acceso.jpg" alt=""></figure>
                                 <div class="foreground">
                                     <h3>Lorem Ipsum Itset</h3>
                                 </div>
                             </div>
                             <div class="slider__projects--project">
-                                <figure><img src="" alt=""></figure>
+                                <figure><img src="img/cocina 2.jpg" alt=""></figure>
                                 <div class="foreground">
                                     <h3>Lorem Ipsum Itset</h3>
                                 </div>
@@ -82,7 +84,122 @@
             </div>
             <a href="#us">¿QUIENES SOMOS?</a>
         </section>
+        <section id="us">
+            <figure>
+                <img src="img/interiores 1.jpg" alt="">
+            </figure>
+            <div class="container">
+                <h4>NOSOTROS</h4>
+                <h2>Nuestra <strong>Historia</strong></h2>
+                <p>En el año 2016, nuestro punto de partida fue el Diseño y Construcción de una nave indsutrial, despues
+                    creamos MiM Arquitectura. Somos un despacho de arquitectos egresados de la facultad de arquitectura,
+                    ciudad universitaria</p>
+                <a href="contact.html" class="square__button gray"><i>CONTACTAR</i></a>
+            </div>
+        </section>
+        <section id="services">
+            <h4>SERVICIOS</h4>
+            <div class="services__slider">
+                <div class="services__container">
+                    <div class="service">
+                        <div class="info">
+                            <h3>Proyecto Arquitectónico</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium reiciendis dolores
+                                rem illum nobis obcaecati magni rerum repudiandae iste.</p>
+                        </div>
+
+                        <div class="image">
+                            <figure>
+                                <img src="img/1b.jpg" alt="">
+                            </figure>
+                            <div class="foreground">
+                                <a href="">Ver</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="service">
+                        <div class="info">
+                            <h3>Proyecto Ejecutivo</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium reiciendis dolores
+                                rem illum nobis obcaecati magni rerum repudiandae iste.</p>
+                        </div>
+
+                        <div class="image">
+                            <figure>
+                                <img src="img/Acceso.jpg" alt="">
+                            </figure>
+                            <div class="foreground">
+                                <a href="">Ver</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="service">
+                        <div class="info">
+                            <h3>Lorem ipsum</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium reiciendis dolores
+                                rem illum nobis obcaecati magni rerum repudiandae iste.</p>
+                        </div>
+
+                        <div class="image">
+                            <figure>
+                                <img src="img/cocina 2.jpg" alt="">
+                            </figure>
+                            <div class="foreground">
+                                <a href="">Ver</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <div class="button prev__service">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div class="button next__service">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h4>CONTACTO</h4>
+            <div>
+                <h2>Cotiza,<br> <strong>Trabajemos juntos.</strong></h2>
+                <a href="contact.html" class="square__button white"><i>COTIZAR</i></a>
+            </div>
+            <div>
+                <div class="phone">
+                    <h4>TELÉFONO</h4>
+                    <p>55 4571 1146</p>
+                </div>
+                <div class="mail">
+                    <h4>CORREO</h4>
+                    <p>contacto@mim.com.mx</p>
+                </div>
+                <div class="address">
+                    <h4>PROYECTOS</h4>
+                    <p>Tulipan 215. Colonia Jardines de las delicias. Cuernavaca, Morelos 62343 MX</p>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <figure class="texture">
+            <img src="img/textura.png" alt="">
+        </figure>
+        <figure class="logo">
+            <img src="img/logo_white.png" alt="logo MiM Arquitectura">
+        </figure>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="index.html#us">NOSOTROS</a></li>
+            <li><a href="projects.html">PROYECTOS</a></li>
+            <li><a href="index.html#services">SERVICIOS</a></li>
+        </ul>
+        <p>TODOS LOS DERECHOS RESERVADOS</p>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 

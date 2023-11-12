@@ -28,14 +28,40 @@ projectNext.addEventListener('click', () => {
         sliderProjects.style.transform = `translateX(${sliderPos}%)`;
         console.log(sliderPos);
     } else {
-        sliderProjects.style.transform = `translateX(-66%)`;
+        sliderPos = -52.5;
+        sliderProjects.style.transform = `translateX(${sliderPos}%)`;
     }
 });
 
 projectPrev.addEventListener('click', () => {
     if (sliderPos < -25) {
-        sliderPos += 100/3;
+        sliderPos += 31;
         sliderProjects.style.transform = `translateX(${sliderPos}%)`;
         console.log(sliderPos);
+    } else if (sliderPos > -25) {
+        sliderPos = 0;
+        sliderProjects.style.transform = `translateX(${sliderPos}%)`;
+    }
+});
+
+
+const nextService = document.querySelector('.next__service');
+const prevService = document.querySelector('.prev__service');
+const servicesSlider = document.querySelector('.services__container');
+servicesSlider.style.marginLeft = '0';
+
+nextService.addEventListener('click', () => {
+    if (servicesSlider.style.marginLeft === '0px') {
+        servicesSlider.style.marginLeft = '-100%';
+    } else  {
+        servicesSlider.style.marginLeft = '-200%';
+    }
+});
+
+prevService.addEventListener('click', () => {
+    if (servicesSlider.style.marginLeft === '-200%') {
+        servicesSlider.style.marginLeft = '-100%';
+    } else {
+        servicesSlider.style.marginLeft = '0';
     }
 });
