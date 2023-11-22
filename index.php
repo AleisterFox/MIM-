@@ -27,8 +27,8 @@
                 <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.html">Servicios</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
@@ -36,41 +36,27 @@
 
     <main>
         <section id="hero">
-            <figure class="texture">
-                <img src="img/textura.png" alt="">
-            </figure>
+
             <div class="container">
-                <div class="left">
-                    <h1>Somos un <strong>Despacho</strong></h1>
-                    <p>encargado de responder a las necesidades físicas y sensoriales de nuestros clientes y usuarios
-                    </p>
-                </div>
-                <div class="right">
-                    <h4>PROYECTOS</h4>
-                    <div class="slider">
-                        <div class="slider__projects">
-                            <div class="slider__projects--project">
-                                <figure><img src="img/1b.jpg" alt=""></figure>
-                                <div class="foreground">
-                                    <h3>Lorem Ipsum Itset</h3>
-                                </div>
-                            </div>
-                            <div class="slider__projects--project">
-                                <figure><img src="img/Acceso.jpg" alt=""></figure>
-                                <div class="foreground">
-                                    <h3>Lorem Ipsum Itset</h3>
-                                </div>
-                            </div>
-                            <div class="slider__projects--project">
-                                <figure><img src="img/cocina 2.jpg" alt=""></figure>
-                                <div class="foreground">
-                                    <h3>Lorem Ipsum Itset</h3>
-                                </div>
-                            </div>
+                <div class="slider">
+                    <div class="slider__projects">
+                        <div class="slider__projects--project">
+                            <figure><img src="img/1b.jpg" alt=""></figure>
+                        </div>
+                        <div class="slider__projects--project">
+                            <figure><img src="img/Acceso.jpg" alt=""></figure>
+                        </div>
+                        <div class="slider__projects--project">
+                            <figure><img src="img/cocina 2.jpg" alt=""></figure>
                         </div>
                     </div>
+                </div>
+                <div class="left">
                     <div class="buttons">
-                        <a href="" class="square__button white"><i>VER TODOS</i></a>
+                        <div>
+                            <h4>PROYECTOS</h4>
+                            <h4><strong id="project__title">Proyecto Hidalgo</strong></h4>
+                        </div>
                         <div class="slider__controls">
                             <div class="button prev__project">
                                 <i class="fa-solid fa-chevron-left"></i>
@@ -79,27 +65,61 @@
                                 <i class="fa-solid fa-chevron-right"></i>
                             </div>
                         </div>
+                        <a href="" class="square__button white"><i>VER</i></a>
                     </div>
+                    <a href="" class="square__button white"><i>VER TODOS LOS PROYECTOS</i></a>
+                </div>
+
+                <div class="right">
+                    <figure class="texture">
+                        <img src="img/textura.png" alt="">
+                    </figure>
+                    <h1>Somos un <strong>Despacho</strong></h1>
+                    <p>encargado de responder a las necesidades físicas y sensoriales de nuestros clientes y usuarios
+                    </p>
                 </div>
             </div>
-            <a href="#us">¿QUIENES SOMOS?</a>
+            <!-- <a href="#us">¿QUIENES SOMOS?</a> -->
         </section>
         <section id="us">
-            <figure>
-                <img src="img/interiores 1.jpg" alt="">
-            </figure>
+
             <div class="container">
                 <h4>NOSOTROS</h4>
                 <h2>Nuestra <strong>Historia</strong></h2>
                 <p>En el año 2016, nuestro punto de partida fue el Diseño y Construcción de una nave indsutrial, despues
                     creamos MiM Arquitectura. Somos un despacho de arquitectos egresados de la facultad de arquitectura,
-                    ciudad universitaria</p>
-                <a href="contact.html" class="square__button gray"><i>CONTACTAR</i></a>
+                    Ciudad Universitaria.</p>
+                <!-- <a href="contact.html" class="square__button gray"><i>CONTACTAR</i></a> -->
             </div>
+            <figure>
+                <img src="img/interiores 1.jpg" alt="">
+            </figure>
         </section>
         <section id="services">
-            <h4>SERVICIOS</h4>
-            <div class="services__slider">
+            <div class="title">
+                <h4>SERVICIOS</h4>
+                <h2><strong>Servicios</strong><br> a tu altura.</h2>
+            </div>
+
+            <div class="container">
+                <div class="service">
+                    <h3>Diseño/Proyecto Arquitectónico</h3>
+                    <p>Siempre buscando funcionalidad y planteando una manera diferente y creativa de desarrollar el Diseño Residencial, comercial, habitacional</p>
+                </div>
+                <div class="service">
+                    <h3>Proyecto Ejecutivo</h3>
+                    <p>Proyectos diseñados de manera elocuente para aterrizar en su construcción</p>
+                </div>
+                <div class="service">
+                    <h3>Obra Civil/Construcción </h3>
+                    <p>La construcción es indispensable para nosotros, ya que, es lo que nos ha llevado a crear relación con varias especialidades y contratistas que forman parte de nuestro equipo de trabajo para desarrollar la construcción</p>
+                </div>
+                <div class="service">
+                    <h3>Diseño de Interiores/Acabado</h3>
+                    <p>Proyectos enfocados en diseñar espacios especificos a traves de la elección de revestimentos, colores y acabados ya sea residencial o comercial</p>
+                </div>
+            </div>
+            <!-- <div class="services__slider">
                 <div class="services__container">
                     <div class="service">
                         <div class="info">
@@ -161,7 +181,7 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <section id="contact">
             <h4>CONTACTO</h4>

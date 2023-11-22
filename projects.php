@@ -27,8 +27,8 @@
                 <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.html">Servicios</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>

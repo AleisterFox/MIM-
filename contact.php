@@ -27,8 +27,8 @@
                 <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.html">Servicios</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
@@ -36,23 +36,23 @@
 
     <main id="contact_page">
         <section id="hero">
-            <figure class="texture">
-                <img src="img/textura.png" alt="">
-            </figure>
+           
             <div class="container">
-                <div class="left">
-                    <h4>CONTACTO</h4>
-                </div>
+
                 <div class="right">
+                    <figure class="texture">
+                        <img src="img/textura.png" alt="">
+                    </figure>
+                    <h4>CONTACTO</h4>
                     <h2>Da el primer paso, <br>
                         <strong>En manos de expertos.</strong>
                     </h2>
                 </div>
+                <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tulipan%20215.%20Colonia%20Jardines%20de%20las%20delicias.%20Cuernavaca,%20Morelos%2062343%20MX+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+                </iframe>
             </div>
         </section>
-        <iframe src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tulipan%20215.%20Colonia%20Jardines%20de%20las%20delicias.%20Cuernavaca,%20Morelos%2062343%20MX+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
-
-        </iframe>
+        
         <section id="contact_form">
             <h4>FORMULARIO</h4>
             <form action="">

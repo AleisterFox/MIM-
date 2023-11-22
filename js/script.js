@@ -3,7 +3,8 @@ const burguerButton = document.querySelector('.menu__button');
 
 const projectNext = document.querySelector('.next__project');
 const projectPrev = document.querySelector('.prev__project');
-const sliderProjects = document.querySelector('.slider__projects')
+const sliderProjects = document.querySelector('.slider__projects');
+let projectTitle = document.querySelector('#project__title');
 let sliderPos = 0;
 
 burguerButton.addEventListener('click', () => {
@@ -24,23 +25,25 @@ burguerButton.addEventListener('click', () => {
 
 projectNext.addEventListener('click', () => {
     if (  sliderPos > -1) {
-        sliderPos -= 31;
-        sliderProjects.style.transform = `translateX(${sliderPos}%)`;
-        console.log(sliderPos);
-    } else {
-        sliderPos = -52.5;
-        sliderProjects.style.transform = `translateX(${sliderPos}%)`;
+        sliderPos -= 100;
+        sliderProjects.style.transform = `translateX(${sliderPos}vw)`;
+        projectTitle.innerText = 'Proyecto Ajusco';
+    } else if ( sliderPos < -1) {
+        sliderPos = -200;
+        sliderProjects.style.transform = `translateX(${sliderPos}vw)`;
+        projectTitle.innerText = 'Proyecto 3';
     }
 });
 
 projectPrev.addEventListener('click', () => {
-    if (sliderPos < -25) {
-        sliderPos += 31;
-        sliderProjects.style.transform = `translateX(${sliderPos}%)`;
-        console.log(sliderPos);
-    } else if (sliderPos > -25) {
+    if (sliderPos < -100) {
+        sliderPos += 100;
+        sliderProjects.style.transform = `translateX(${sliderPos}vw)`;
+        projectTitle.innerText = 'Proyecto Ajusco'
+    } else if (sliderPos > -200) {
         sliderPos = 0;
         sliderProjects.style.transform = `translateX(${sliderPos}%)`;
+        projectTitle.innerText = 'Proyecto Hidalgo'
     }
 });
 
