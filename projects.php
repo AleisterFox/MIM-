@@ -17,18 +17,18 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
             <ul class="menu m1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#us">Nosotros</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php#us">Nosotros</a></li>
             </ul>
             <figure>
-                <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
+                <img src="img/favicon.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.html">Proyectos</a></li>
-                <li><a href="contact.html">Cotizar</a></li>
+                <li><a href="projects.php">Proyectos</a></li>
+                <li><a href="contact.php">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
@@ -123,25 +123,35 @@
         </section>
         <section id="contact">
             <h4>CONTACTO</h4>
-            <div>
-                <h2>Cotiza,<br> <strong>Trabajemos juntos.</strong></h2>
-                <a href="contact.html" class="square__button white"><i>COTIZAR</i></a>
+            <div class="container">
+                <div>
+                    <h2>Cotiza,<br> <strong>Trabajemos juntos.</strong></h2>
+                    <a href="contact.php" class="square__button white"><i>COTIZAR</i></a>
+                    
+                </div>
+                <div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>55 4571 1146</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contacto@mim.com.mx</p>
+                    </div>
+                    <div class="address">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p>Tulipan 215. Colonia Jardines de las delicias. Cuernavaca, Morelos 62343 MX</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div class="phone">
-                    <h4>TELÉFONO</h4>
-                    <p>55 4571 1146</p>
-                </div>
-                <div class="mail">
-                    <h4>CORREO</h4>
-                    <p>contacto@mim.com.mx</p>
-                </div>
-                <div class="address">
-                    <h4>PROYECTOS</h4>
-                    <p>Tulipan 215. Colonia Jardines de las delicias. Cuernavaca, Morelos 62343 MX</p>
-                </div>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
         </section>
+        <div class="whatsapp">
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
     </main>
     <footer>
         <figure class="texture">

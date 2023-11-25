@@ -17,25 +17,25 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <nav>
             <ul class="menu m1">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#us">Nosotros</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="#us">Nosotros</a></li>
             </ul>
             <figure>
-                <img src="img/logo_white.png" alt="logo de MIM Arquitectura">
+                <img src="img/favicon.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.html">Proyectos</a></li>
-                <li><a href="contact.html">Cotizar</a></li>
+                <li><a href="projects.php">Proyectos</a></li>
+                <li><a href="contact.php">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
+        <section id="hero" class="mainHero">
 
             <div class="container">
                 <div class="slider">
@@ -89,7 +89,7 @@
                 <p>En el año 2016, nuestro punto de partida fue el Diseño y Construcción de una nave indsutrial, despues
                     creamos MiM Arquitectura. Somos un despacho de arquitectos egresados de la facultad de arquitectura,
                     Ciudad Universitaria.</p>
-                <!-- <a href="contact.html" class="square__button gray"><i>CONTACTAR</i></a> -->
+                <!-- <a href="contact.php" class="square__button gray"><i>CONTACTAR</i></a> -->
             </div>
             <figure>
                 <img src="img/interiores 1.jpg" alt="">
@@ -104,7 +104,8 @@
             <div class="container">
                 <div class="service">
                     <h3>Diseño/Proyecto Arquitectónico</h3>
-                    <p>Siempre buscando funcionalidad y planteando una manera diferente y creativa de desarrollar el Diseño Residencial, comercial, habitacional</p>
+                    <p>Siempre buscando funcionalidad y planteando una manera diferente y creativa de desarrollar el
+                        Diseño Residencial, comercial, habitacional</p>
                 </div>
                 <div class="service">
                     <h3>Proyecto Ejecutivo</h3>
@@ -112,11 +113,14 @@
                 </div>
                 <div class="service">
                     <h3>Obra Civil/Construcción </h3>
-                    <p>La construcción es indispensable para nosotros, ya que, es lo que nos ha llevado a crear relación con varias especialidades y contratistas que forman parte de nuestro equipo de trabajo para desarrollar la construcción</p>
+                    <p>La construcción es indispensable para nosotros, ya que, es lo que nos ha llevado a crear relación
+                        con varias especialidades y contratistas que forman parte de nuestro equipo de trabajo para
+                        desarrollar la construcción</p>
                 </div>
                 <div class="service">
                     <h3>Diseño de Interiores/Acabado</h3>
-                    <p>Proyectos enfocados en diseñar espacios especificos a traves de la elección de revestimentos, colores y acabados ya sea residencial o comercial</p>
+                    <p>Proyectos enfocados en diseñar espacios especificos a traves de la elección de revestimentos,
+                        colores y acabados ya sea residencial o comercial</p>
                 </div>
             </div>
             <!-- <div class="services__slider">
@@ -185,25 +189,35 @@
         </section>
         <section id="contact">
             <h4>CONTACTO</h4>
-            <div>
-                <h2>Cotiza,<br> <strong>Trabajemos juntos.</strong></h2>
-                <a href="contact.html" class="square__button white"><i>COTIZAR</i></a>
+            <div class="container">
+                <div>
+                    <h2>Cotiza,<br> <strong>Trabajemos juntos.</strong></h2>
+                    <a href="contact.php" class="square__button white"><i>COTIZAR</i></a>
+                    
+                </div>
+                <div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>55 4571 1146</p>
+                    </div>
+                    <div class="mail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>contacto@mim.com.mx</p>
+                    </div>
+                    <div class="address">
+                        <i class="fa-solid fa-location-pin"></i>
+                        <p>Tulipan 215. Colonia Jardines de las delicias. Cuernavaca, Morelos 62343 MX</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div class="phone">
-                    <h4>TELÉFONO</h4>
-                    <p>55 4571 1146</p>
-                </div>
-                <div class="mail">
-                    <h4>CORREO</h4>
-                    <p>contacto@mim.com.mx</p>
-                </div>
-                <div class="address">
-                    <h4>PROYECTOS</h4>
-                    <p>Tulipan 215. Colonia Jardines de las delicias. Cuernavaca, Morelos 62343 MX</p>
-                </div>
+            <div class="social">
+                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
             </div>
         </section>
+        <div class="whatsapp">
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
     </main>
     <footer>
         <figure class="texture">
@@ -213,10 +227,10 @@
             <img src="img/logo_white.png" alt="logo MiM Arquitectura">
         </figure>
         <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="index.html#us">NOSOTROS</a></li>
-            <li><a href="projects.html">PROYECTOS</a></li>
-            <li><a href="index.html#services">SERVICIOS</a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="index.php#us">NOSOTROS</a></li>
+            <li><a href="projects.php">PROYECTOS</a></li>
+            <li><a href="index.php#services">SERVICIOS</a></li>
         </ul>
         <p>TODOS LOS DERECHOS RESERVADOS</p>
     </footer>

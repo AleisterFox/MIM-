@@ -8,27 +8,44 @@ let projectTitle = document.querySelector('#project__title');
 let sliderPos = 0;
 
 burguerButton.addEventListener('click', () => {
-    menu.forEach(list => {
-        if (list.style.display != 'flex') {
-            list.style.display = 'flex';
-            list.style.animation = 'showMenu 0.5s linear';
-        } else {
+    if (this.innerWidth < 769) {
+        menu.forEach(list => {
+            if (list.style.display != 'flex') {
+                list.style.display = 'flex';
+                list.style.animation = 'showMenu 0.5s linear';
+                list.style.background = 'var(--blue)';
+            } else {
 
-            list.style.animation = 'hideMenu 0.5s linear';
-            setTimeout(() => {
-                list.style.display = 'none';
-            }, 490);
-        }
-    });
+                list.style.animation = 'hideMenu 0.5s linear';
+                setTimeout(() => {
+                    list.style.display = 'none';
+                }, 490);
+            }
+        });
+    }
+});
+const headerBar = document.querySelector('#header');
+const mainHero = document.querySelector('.mainHero');
+if (window.scrollY === 0 && headerBar.offsetTop === mainHero.offsetTop) {
+    headerBar.style.background = 'transparent';
+}
+window.addEventListener('scroll', function () {
+
+    if (window.scrollY === 0 && headerBar.offsetTop === mainHero.offsetTop) {
+        headerBar.style.background = 'transparent';
+    } else {
+        headerBar.style.background = 'var(--blue)';
+    }
+
 });
 
 
 projectNext.addEventListener('click', () => {
-    if (  sliderPos > -1) {
+    if (sliderPos > -1) {
         sliderPos -= 100;
         sliderProjects.style.transform = `translateX(${sliderPos}vw)`;
         projectTitle.innerText = 'Proyecto Ajusco';
-    } else if ( sliderPos < -1) {
+    } else if (sliderPos < -1) {
         sliderPos = -200;
         sliderProjects.style.transform = `translateX(${sliderPos}vw)`;
         projectTitle.innerText = 'Proyecto 3';
@@ -56,7 +73,7 @@ servicesSlider.style.marginLeft = '0';
 nextService.addEventListener('click', () => {
     if (servicesSlider.style.marginLeft === '0px') {
         servicesSlider.style.marginLeft = '-100%';
-    } else  {
+    } else {
         servicesSlider.style.marginLeft = '-200%';
     }
 });
