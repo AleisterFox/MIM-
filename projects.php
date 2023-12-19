@@ -49,67 +49,67 @@
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/ajusco1.jpg" alt="Ajusco">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/ajusco.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Ajusco</p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/juitepec1.jpg" alt="Juitepec">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/juitepec.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Juitepec</p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/texcoco1.jpg" alt="Texcoco">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/texcoco.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Texcoco</p></p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/naucalpan1.jpg" alt="Naucalpan">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/naucalpan.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Naucalpan</p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/teques1.jpg" alt="Teques">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/teques.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Teques</p>
                     </div>
                 </div>
                 <div class="service">
                     <div class="image">
                         <figure>
-                            <img src="img/cocina 2.jpg" alt="">
+                            <img src="img/yautepec1.jpg" alt="Yautepec">
                         </figure>
                         <div class="foreground">
-                            <a href="">Ver</a>
+                            <a href="projects/yautepec.php">Ver más</a>
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur</p>
+                        <p>Yautepec</p>
                     </div>
                 </div>
             </div>
@@ -145,14 +145,15 @@
                 </div>
             </div>
             <div class="social">
-                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/MIM.ArquitecturaeInteriorismo?mibextid=9R9pXO" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/mim_arqin/?igshid=YzVkODRmOTdmMw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </section>
         <div class="whatsapp">
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.link/cvkve"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </main>
+
     <footer>
         <figure class="texture">
             <img src="img/textura.png" alt="">

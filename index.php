@@ -16,19 +16,19 @@
     <title>MIM Arquitectura</title>
 </head>
 
-<body>
+<body onload=autoSlide()>
     <header id="header">
         <nav>
             <ul class="menu m1">
-                <li><a href="index.php">Home</a></li>
-                <li><a href="#us">Nosotros</a></li>
+                <li><a href="index.php" class="top__link">Home</a></li>
+                <li><a href="#us" class="top__link">Nosotros</a></li>
             </ul>
             <figure>
                 <img src="img/favicon.png" alt="logo de MIM Arquitectura">
             </figure>
             <ul class="menu m2">
-                <li><a href="projects.php">Proyectos</a></li>
-                <li><a href="contact.php">Cotizar</a></li>
+                <li><a href="projects.php" class="top__link">Proyectos</a></li>
+                <li><a href="contact.php" class="top__link">Cotizar</a></li>
             </ul>
             <i class="fa-solid fa-bars menu__button"></i>
         </nav>
@@ -41,13 +41,13 @@
                 <div class="slider">
                     <div class="slider__projects">
                         <div class="slider__projects--project">
-                            <figure><img src="img/1b.jpg" alt=""></figure>
+                            <figure><img src="img/hidalgo1.jpg" alt="Fachada Proyecto Hidalgo"></figure>
                         </div>
                         <div class="slider__projects--project">
-                            <figure><img src="img/Acceso.jpg" alt=""></figure>
+                            <figure><img src="img/ajusco1.jpg" alt="Fachada Proyecto Ajusco"></figure>
                         </div>
                         <div class="slider__projects--project">
-                            <figure><img src="img/cocina 2.jpg" alt=""></figure>
+                            <figure><img src="img/naucalpan1.jpg" alt="Fachada Proyecto Naucalpan"></figure>
                         </div>
                     </div>
                 </div>
@@ -65,9 +65,9 @@
                                 <i class="fa-solid fa-chevron-right"></i>
                             </div>
                         </div>
-                        <a href="" class="square__button white"><i>VER</i></a>
+                        <a href="projects/ajusco.php" class="square__button white watch"><i>VER</i></a>
                     </div>
-                    <a href="" class="square__button white"><i>VER TODOS LOS PROYECTOS</i></a>
+                    <a href="projects.php" class="square__button white"><i>VER TODOS LOS PROYECTOS</i></a>
                 </div>
 
                 <div class="right">
@@ -119,7 +119,7 @@
                 </div>
                 <div class="service">
                     <h3>Diseño de Interiores/Acabado</h3>
-                    <p>Proyectos enfocados en diseñar espacios especificos a traves de la elección de revestimentos,
+                    <p>Proyectos enfocados en diseñar espacios específicos a traves de la elección de revestimientos,
                         colores y acabados ya sea residencial o comercial</p>
                 </div>
             </div>
@@ -211,12 +211,12 @@
                 </div>
             </div>
             <div class="social">
-                <a href=""><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/MIM.ArquitecturaeInteriorismo?mibextid=9R9pXO" target="_blank"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/mim_arqin/?igshid=YzVkODRmOTdmMw" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </section>
         <div class="whatsapp">
-            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://wa.link/cvkves"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
     </main>
     <footer>
